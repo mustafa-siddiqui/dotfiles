@@ -1,0 +1,82 @@
+{
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+  "author": "Mustafa Siddiqui",
+  "name": "Codecademy Dark",
+  "themes": [
+    {
+      "name": "Codecademy Dark",
+      "appearance": "dark",
+
+      "style": {
+        "background": "#1f1e2d",
+        "foreground": "#ffffff",
+
+        "editor.background": "#1f1e2d",
+        "editor.foreground": "#ffffff",
+
+        "pane.background": "#1b1a28",
+        "panel.background": "#1b1a28",
+
+        "terminal.background": "#1f1e2d",
+        "terminal.foreground": "#ffffff",
+
+        "selection.background": "#3e3d4d",
+        "cursor.foreground": "#ffffff",
+
+        "syntax": {
+          "comment": { "color": "#9691BD" },
+
+          "keyword": { "color": "#ffffff" },
+          "operator": { "color": "#ffffff" },
+
+          "variable": { "color": "#b3ccff" },
+          "variable.parameter": { "color": "#ff8973" },
+          "variable.builtin": { "color": "#b3ccff" },
+
+          "function": { "color": "#ff8973" },
+          "function.method": { "color": "#ff8973" },
+          "function.call": { "color": "#ff8973" },
+
+          "type": { "color": "#ffe083" },
+          "type.builtin": { "color": "#83fff5" },
+
+          "constant": { "color": "#ff8973" },
+          "constant.numeric": { "color": "#ff8973" },
+
+          "string": { "color": "#ffe083" },
+          "string.regex": { "color": "#b3ccff" },
+          "string.escape": { "color": "#b3ccff" },
+          "string.documentation": { "color": "#ffe083" },
+
+          "tag": { "color": "#ff8973" },
+          "attribute": { "color": "#ffe083" },
+
+          "property": { "color": "#F288E9" },
+          "namespace": { "color": "#83fff5" },
+
+          "punctuation": { "color": "#ffffff" },
+
+          "error": { "color": "#83fff5" }
+        },
+
+        "markup": {
+          "heading": { "color": "#b3ccff" },
+          "bold": { "color": "#ff8973" },
+          "italic": { "color": "#ff8973" },
+          "strikethrough": { "color": "#ff8973" },
+          "quote": { "color": "#83fff5" },
+          "code": { "color": "#F288E9" },
+          "link": { "color": "#ff8973" },
+          "list": { "color": "#ffffff" }
+        },
+
+        "diagnostics": {
+          "info": { "color": "#6796e6" },
+          "warning": { "color": "#ffe083" },
+          "error": { "color": "#FF7566" },
+          "hint": { "color": "#F288E9" }
+        }
+      }
+    }
+  ]
+}
